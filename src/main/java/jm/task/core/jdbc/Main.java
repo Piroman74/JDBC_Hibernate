@@ -14,6 +14,5 @@ public class Main {
         List<User> users = userDaoHibernate.getAllUsers();
         userDaoHibernate.cleanUsersTable();
         userDaoHibernate.dropUsersTable();
-
     }
 }
